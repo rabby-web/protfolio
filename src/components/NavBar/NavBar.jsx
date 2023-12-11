@@ -123,7 +123,7 @@ const NavBar = () => {
                 alt=""
               />
             </p>
-            <p className="text-[#44C5DB]">abby</p>
+            <p className="text-[#44C5DB]">Rabby</p>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
