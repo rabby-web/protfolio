@@ -58,12 +58,12 @@ const NavBar = () => {
       </li>
       <li className=" text-dark-01 text-lg font-medium hover:text-dark-03 hover:underline dark:text-white">
         <NavLink
-          to="/about"
+          to="/project"
           className={({ isActive, isPending }) =>
             isPending ? "pending " : isActive ? "text-dark-03 " : ""
           }
         >
-          About Us
+          Project
         </NavLink>
       </li>
       <li className=" text-dark-01 text-lg font-medium hover:text-dark-03 hover:underline dark:text-white">
@@ -74,16 +74,6 @@ const NavBar = () => {
           }
         >
           Contract
-        </NavLink>
-      </li>
-      <li className=" text-dark-01 text-lg font-medium hover:text-dark-03 hover:underline dark:text-white">
-        <NavLink
-          to="/dashboard"
-          className={({ isActive, isPending }) =>
-            isPending ? "pending " : isActive ? "text-dark-03 " : ""
-          }
-        >
-          Dashboard
         </NavLink>
       </li>
     </>

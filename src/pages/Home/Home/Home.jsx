@@ -1,6 +1,7 @@
 import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Contract from "../Contract/Contract";
+import Projects from "../Projects/Projects";
 import Skill from "../Skill/Skill";
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
         Projects
       </h2>
       <div className="pb-5">
-        <Skill></Skill>
+        <Projects></Projects>
       </div>
       <h2 className="text-2xl text-center font-semibold py-3 text-dark-01 dark:text-dark-03">
         Contract
