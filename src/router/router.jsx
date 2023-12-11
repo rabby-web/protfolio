@@ -3,6 +3,7 @@ import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home/Home/Home";
 import About from "../pages/Home/About/About";
 import Skill from "../pages/Home/Skill/Skill";
+import Contract from "../pages/Home/Contract/Contract";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/skill",
         element: <Skill></Skill>,
+      },
+      {
+        path: "/contract",
+        element: <Contract></Contract>,
       },
     ],
   },
