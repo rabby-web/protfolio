@@ -9,7 +9,7 @@ import svg8 from "../../../assets/8.svg";
 import svg9 from "../../../assets/9.svg";
 const Skill = () => {
   return (
-    <div className="mx-4 mb-4">
+    <div className="py-6">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-4">
         <div className="text-2xl text-center border p-4 rounded-md">
           <div className="flex justify-center gap-3  items-center">
@@ -19,7 +19,7 @@ const Skill = () => {
 
           <progress
             className="progress progress-info w-56"
-            value="60"
+            value="90"
             max="100"
           ></progress>
         </div>
@@ -31,7 +31,7 @@ const Skill = () => {
 
           <progress
             className="progress progress-info w-56"
-            value="60"
+            value="80"
             max="100"
           ></progress>
         </div>
@@ -43,7 +43,7 @@ const Skill = () => {
 
           <progress
             className="progress progress-info w-56"
-            value="60"
+            value="90"
             max="100"
           ></progress>
         </div>
@@ -55,7 +55,7 @@ const Skill = () => {
 
           <progress
             className="progress progress-info w-56"
-            value="60"
+            value="65"
             max="100"
           ></progress>
         </div>
@@ -67,7 +67,7 @@ const Skill = () => {
 
           <progress
             className="progress progress-info w-56"
-            value="60"
+            value="70"
             max="100"
           ></progress>
         </div>
@@ -79,7 +79,7 @@ const Skill = () => {
 
           <progress
             className="progress progress-info w-56"
-            value="60"
+            value="90"
             max="100"
           ></progress>
         </div>
@@ -103,7 +103,7 @@ const Skill = () => {
 
           <progress
             className="progress progress-info w-56"
-            value="60"
+            value="70"
             max="100"
           ></progress>
         </div>

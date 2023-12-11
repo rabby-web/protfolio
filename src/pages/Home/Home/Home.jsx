@@ -13,7 +13,13 @@ const Home = () => {
       <h2 className="text-2xl text-center font-semibold py-3 text-dark-01 dark:text-dark-03">
         Skill
       </h2>
-      <div className="mb-4">
+      <div className="pb-5">
+        <Skill></Skill>
+      </div>
+      <h2 className="text-2xl text-center font-semibold py-3 text-dark-01 dark:text-dark-03">
+        Projects
+      </h2>
+      <div className="pb-5">
         <Skill></Skill>
       </div>
     </div>
