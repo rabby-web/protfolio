@@ -38,22 +38,22 @@ const NavBar = () => {
       </li>
       <li className="text-dark-01 text-lg font-medium hover:text-dark-03 hover:underline dark:text-white">
         <NavLink
-          to="/surveys"
+          to="/about"
           className={({ isActive, isPending }) =>
             isPending ? "pending " : isActive ? "text-dark-03 " : ""
           }
         >
-          Surveys
+          About
         </NavLink>
       </li>
       <li className=" text-dark-01 text-lg font-medium hover:text-dark-03 hover:underline dark:text-white">
         <NavLink
-          to="/payment"
+          to="/skill"
           className={({ isActive, isPending }) =>
             isPending ? "pending " : isActive ? "text-dark-03 " : ""
           }
         >
-          Go Pro
+          Skill
         </NavLink>
       </li>
       <li className=" text-dark-01 text-lg font-medium hover:text-dark-03 hover:underline dark:text-white">
