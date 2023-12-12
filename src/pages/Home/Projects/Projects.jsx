@@ -13,7 +13,7 @@ const Projects = () => {
               alt=""
             />
           </a>
-          <div className="flex justify-between items-center text-dark-01 text:bg-dark-03 py-1 px-3">
+          <div className="flex justify-between items-center text-dark-01 dark:text-dark-03 py-1 px-3">
             <p className="border px-1 rounded">React</p>
             <p className="border px-1 rounded">Tailwind</p>
             <p className="border px-1 rounded">Express</p>
@@ -62,7 +62,7 @@ const Projects = () => {
               alt=""
             />
           </a>
-          <div className="flex justify-between items-center text-dark-01 text:bg-dark-03 py-1 px-3">
+          <div className="flex justify-between items-center text-dark-01 dark:text-dark-03 py-1 px-3">
             <p className="border px-1 rounded">React</p>
             <p className="border px-1 rounded">Tailwind</p>
             <p className="border px-1 rounded">Express</p>
@@ -111,7 +111,7 @@ const Projects = () => {
               alt=""
             />
           </a>
-          <div className="flex justify-between items-center text-dark-01 text:bg-dark-03 py-1 px-3">
+          <div className="flex justify-between items-center text-dark-01 dark:text-dark-03 py-1 px-3">
             <p className="border px-1 rounded">React</p>
             <p className="border px-1 rounded">Tailwind</p>
             <p className="border px-1 rounded">JavaScript</p>
