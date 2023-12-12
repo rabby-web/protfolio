@@ -9,7 +9,7 @@ import svg8 from "../../../assets/8.svg";
 import svg9 from "../../../assets/9.svg";
 const Skill = () => {
   return (
-    <div className="py-6">
+    <div className="py-6 px-3">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-4">
         <div className="text-2xl text-center border p-4 rounded-md">
           <div className="flex justify-center gap-3  items-center">
