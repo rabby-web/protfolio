@@ -1,6 +1,7 @@
-import { FaPaperPlane, FaLinkedin } from "react-icons/fa";
+import { FaPaperPlane } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const Contract = () => {
   return (
@@ -65,7 +66,33 @@ const Contract = () => {
                 rabby-webdeveloper@gmail.com
               </a>
             </div>
-            <div className="flex gap-3 font-medium text-xl items-center ">
+            <div className="flex-1">
+              <h2 className="text-dark-01 dark:text-white font-semibold text-3xl md:text-4xl mb-2 mt-2">
+                Social Link
+              </h2>
+              <div className="text-dark-03 dark:text-white flex  gap-4 mt-4">
+                <a href="https://github.com/rabby-web">
+                  <div className="flex items-center justify-center gap-2 border rounded px-2 py-1">
+                    <FaGithub />
+                    <h2>GitHub</h2>
+                  </div>
+                </a>
+                <a href="https://www.linkedin.com/in/rabby-web/">
+                  <div className="flex items-center justify-center gap-2 border rounded px-2 py-1">
+                    <FaLinkedin />
+
+                    <h2>Linkedin</h2>
+                  </div>
+                </a>
+                <a href="https://www.facebook.com/ridoy.babu.3538">
+                  <div className="flex items-center justify-center gap-2 border rounded px-2 py-1">
+                    <FaFacebook />
+                    <h2>Facebook</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+            {/* <div className="flex gap-3 font-medium text-xl items-center ">
               <FaLinkedin className="text-dark-03 dark:text-white text-3xl" />
               <a
                 className="text-dark-01 dark:text-white"
@@ -73,7 +100,7 @@ const Contract = () => {
               >
                 Linkedin
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
