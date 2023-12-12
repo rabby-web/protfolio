@@ -1,3 +1,5 @@
+import Download from "../Download/Download";
+
 const Banner = () => {
   return (
     <div>
@@ -25,9 +27,10 @@ const Banner = () => {
             <button className="py-3 px-5 border my-2 text-lg rounded text-dark-01 dark:text-white">
               About Me
             </button>
-            <button className="py-3 px-5 border my-2 text-lg rounded bg-dark-01 dark:bg-dark-03 text-white">
+            {/* <button className="py-3 px-5 border my-2 text-lg rounded bg-dark-01 dark:bg-dark-03 text-white">
               Download Resume
-            </button>
+            </button> */}
+            <Download></Download>
           </div>
         </div>
       </div>
