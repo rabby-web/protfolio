@@ -1,11 +1,11 @@
 const About = () => {
   return (
-    <div className="md:flex items-center py-8 my-4">
-      <div className="flex-1">
+    <div className="md:flex items-center py-8 my-4 px-4">
+      <div className="flex-1 ms-4">
         <h2 className="text-2xl font-semibold text-dark-01 dark:text-dark-03">
           Education:-
         </h2>
-        <div className="">
+        <div className="mt-4">
           <div className="space-y-2">
             <h2 className="text-2xl font-semibold text-dark-01 dark:text-white">
               BACHALOR DIGREE <br /> JAN 1021 - MAY 2025
