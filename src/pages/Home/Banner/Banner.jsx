@@ -24,7 +24,7 @@ const Banner = () => {
             </span>
           </h2>
           <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
-            <button className="py-3 px-5 border my-2 text-lg rounded text-dark-01 dark:text-white">
+            <button className="py-3 px-5 border my-2 text-lg rounded bg-dark-01 dark:bg-dark-03 text-white">
               About Me
             </button>
             {/* <button className="py-3 px-5 border my-2 text-lg rounded bg-dark-01 dark:bg-dark-03 text-white">
